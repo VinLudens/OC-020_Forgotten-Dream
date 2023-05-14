@@ -3,7 +3,10 @@
 date = #(strftime "%B %d %Y" (localtime (current-time)))
 \header {
   title = "Forgotten Dream"
-  subtitle = \markup { \italic "In memory to my friends from the dream" }
+  subtitle = \markup { \center-column {
+    "Original Composition No. 20"
+    \italic\small "In memory to my friends from the dream"
+  } }
   %instrument = "Piano"
   composer = "VinLudens"
   %arranger = "Arr. by VinLudens"
