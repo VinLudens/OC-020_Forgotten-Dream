@@ -28,10 +28,10 @@ right = \relative c' {
   c=''8 d e g b4. 8 |
   <b fis d>\arpeggio a fis d b='2\) |
   c=''8\( d e g d'='''4. e8 |
-  <d fis,>8 b g d b2\) |
+  <d fis,>8 b fis d b2\) |
 
   \tuplet 6/4 { c=''8[\( d e fis g a] } b4. 8 |
-  \tuplet 6/4 { <b fis d>8[\arpeggio a g d b fis] } b2\) |
+  \tuplet 6/4 { <b fis d>8[\arpeggio a fis d b fis] } b2\) |
   \tuplet 6/4 { c=''8[\( d e g a b] } d='''4 <fis d a fis> |
   <e d a e>2 <cis=''' a e>\) |
 
