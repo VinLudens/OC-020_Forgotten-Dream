@@ -38,5 +38,37 @@ left = \relative c {
   \bar "||"
   \key e \major
 
+  \clef "bass" e,,,=,8 b' e dis cis gis' fis4 |
+  cis,=,8 gis' e' dis cis2 |
+  e=8 b' e dis cis gis' fis4 |
+  cis,=8 gis' e' dis cis2 |
+
+  e,,=,8 b' e fis gis b ~ 4 |
+
+  cis,,8 gis' cis e ~ 2 |
+  e8 b' e fis gis b ~ 4 |
+
+
+
+
+
+
+  cis,,8 gis' cis e ~ 2 |
+
+  \time 3/4
+  a,,=,8 e' a e a,4 |
+  \time 4/4
+  b=,8 dis fis b fis dis b4 |
+  \key g \major
+  \time 3/4
+  c=8 e g e c4 |
+
+  \time 4/4
+  d=8 fis a fis d2 |
+
+  \bar "||"
+  \time 3/4
+
+  \clef "treble" r4 r r |
 
 }
