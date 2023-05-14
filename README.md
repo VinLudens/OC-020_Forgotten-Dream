@@ -1,6 +1,6 @@
 Using the template:
 - [x] Set the `MAIN_FILE` repository variable (filename without extension)
-- [ ] add `./openlilylib` directory with submodules inside if needed
+- [x] add `./openlilylib` directory with submodules inside if needed
 
 # About
 

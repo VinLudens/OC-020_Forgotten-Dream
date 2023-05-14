@@ -1,0 +1,3 @@
+[submodule "openlilylib/edition-engraver"]
+	path = openlilylib/edition-engraver
+	url = https://github.com/openlilylib/edition-engraver.git
