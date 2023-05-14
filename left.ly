@@ -22,5 +22,21 @@ left = \relative c {
   \tuplet 3/2 4 { g,=,8 d' g a b d \change Staff = "right" e fis g } | \change Staff = "left"
   \time 4/4
   \tuplet 3/2 4 { e,,=,8 b' e fis g b } e,=2 |
+  \clef "treble" g=8 d' g a b d r4 |
+  e,,=8 b' e fis g2 |
+
+  \clef "bass" c,,=8 g' c g c, g' c g |
+  d=8 fis a fis d fis a fis |
+  a,=, e' a e a, e' a e |
+  d=8 fis a fis d fis a fis |
+
+  c=8 g' c g c, g' c g |
+  d=8 fis a fis d fis a b |
+  \clef "treble" c='8 e g e c e g e |
+  a,=8 e' a b cis2 |
+
+  \bar "||"
+  \key e \major
+
 
 }

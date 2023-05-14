@@ -22,7 +22,21 @@ right = \relative c' {
   b='2. |
   \time 4/4
   fis2 e\) |
+  b''=''2.\( g4 |
+  fis2 \appoggiatura { g16 a } e4\) d8-"Fix slur"\( b |
 
+  c=''8 d e g b4. 8 |
+  <b fis d>\arpeggio a fis d b='2\) |
+  c=''8\( d e g d'='''4. e8 |
+  <d fis,>8 b g d b2\) |
+
+  \tuplet 6/4 { c=''8[\( d e fis g a] } b4. 8 |
+  \tuplet 6/4 { <b fis d>8[\arpeggio a g d b fis] } b2\) |
+  \tuplet 6/4 { c=''8[\( d e g a b] } d='''4 <fis d a fis> |
+  <e d a e>2 <cis=''' a e>\) |
+
+  \bar "||"
+  \key e \major
 
 
 }
