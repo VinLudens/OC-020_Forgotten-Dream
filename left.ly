@@ -28,7 +28,7 @@ left = {
   \clef "bass" c8 g c' g c g c' g |
   d8 fis a fis d fis a fis |
   a, e a e a, e a e |
-  d8 fis a fis d fis a fis |
+  d8 fis b fis d fis b fis |
 
   c8 g c' g c g c' g |
   d8 fis a fis d fis a b |
