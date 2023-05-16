@@ -15,7 +15,7 @@ right = {
   \time 3/4
   c'4.\) c'8\( \tuplet 3/2 { c'8 b a } |
   \time 5/4
-  c'2 b4\) ~ \tuplet 3/2 { 4 d'\( g' } |
+  c'2 b2\) d'8\( g' |
 
   \tempo "Allegretto" 4 = 108
   \time 3/4
