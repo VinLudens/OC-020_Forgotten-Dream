@@ -23,7 +23,7 @@ right = {
   \time 4/4
   fis'2 e'\) |
   b''2.\( g''4 |
-  fis''2 \appoggiatura { g''16 a'' } e''4\) d''8-"Fix slur"\( b' |
+  fis''2 \appoggiatura { g''8 a'' } e''4\) d''8-"Fix slur"\( b' |
 
   c''8 d'' e'' g'' b''4. 8 |
   <b'' fis'' d''>\arpeggio a'' fis'' d'' b'2\) |
