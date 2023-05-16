@@ -163,17 +163,26 @@ left = {
   \key c \major
 
 
-  f,8 a a a a a a a |
-  f,8 a a a a a a a |
-  f,8 a a a a a a a |
-  f,8 a a a a a a a |
+  f,8 c f c f, c f c |
+  g,8 d g d g, d g d |
+  bes,8 f bes f bes, f bes f |
+  c8 g c' g c g c' g |
   
-  f,8 a a a a a a a |
-  f,8 a a a a a a a |
-  f,8 a a a a a a a |
+  \key gis \minor
+  cis8 gis cis' gis cis gis cis' gis |
+  dis8 ais dis' ais dis ais dis' ais |
+  e8 b e' b e b e' b |
   
-  a8 a a a r a a a |
-  r8 a a a r a a a |
-  a2. r4 |
+  dis8 g ais dis' r dis' ais g |
+  r8 ais g dis r dis ais, g, |
+  \ottava -1 dis,,2. \ottava 0 r4 |
+
+  \time 3/4
+  s2. |
+  s2. |
+  s2. |
+  \time 4/4
+
+  cis,
 
 }

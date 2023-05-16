@@ -163,17 +163,26 @@ right = {
   \key c \major
   \tempo "Allegretto" 4 = 108
 
-  a8 a a a a4. a8 |
-  a8\arpeggio a a a a2 |
-  a8 a a a a4. a8 |
-  a8 a a a a2 |
+  c'8 d' e' g' b'4. b'8 |
+  <d' fis' b'>8\arpeggio a' fis' d' b2 |
+  c'8 d' e' g' d''4. e''8 |
+  <e' d''>8 b' g' e' d'2 |
   
-  a8 a a a a4. a8 |
-  a8\arpeggio a a a a2 |
-  a8 a a a a4 a |
+  \key gis \minor
+  e'8 fis' gis' b' dis''4. cis''8 |
+  <fis' b' dis''>8\arpeggio cis'' b' fis' dis'2 |
+  e'8 fis' gis' b' fis''4 ais'' |
   
-  a2 a |
-  a2 a |
-  a2. r4\fermata |
+  <ais' dis'' g''>2 <g' ais' dis''> |
+  <dis' g' ais'>2 <ais dis' g'> |
+  <dis ais dis'>2.\fermata r4\fermata |
+  
+  \time 3/4
+  \change Staff = "left" dis,4 ais, dis |
+  dis4 ais dis' |
+  \change Staff = "right" dis'4 ais' dis'' |
+  \time 4/4
+
+  dis''
 
 }
