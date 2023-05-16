@@ -58,7 +58,7 @@ right = {
   \time 3/4
   <e' a'>4. <e' a'>8 \tuplet 3/2 { <e' a'>8 gis' fis' } |
   \time 4/4
-  <dis' a'>2 <dis' gis'>4.\) gis'16 a' |
+  <dis' a'>2 <dis' gis'>4.\) gis'16\(-"bend slur" a' |
   \key g \major
   \time 3/4
   <c' e' b'>4. <c' e' b'>8 \tuplet 3/2 { <c' e' b'>8 a' g' } |
@@ -67,13 +67,113 @@ right = {
 
   \bar "||"
   \time 3/4
+  \tempo "Andantino" 2. = 80
 
   << { \voiceTwo
+      b'2.\) ~ |
+      b'2. ~ |
+      b'2. ~ |
+      b'2. |
+
+      \acciaccatura d''8 b'2. ~ |
+      b'2. ~ |
+      b'2. ~ |
       b'2. |
     }
-    \new Voice { \voiceOne
-      r
+    \new Voice { \voiceOne\tiny
+      r4 <e'' g''>4-. q4-. |
+      r4 <fis'' b''>4-. q4-. |
+      r4 <d'' fis''>4-. q4-. |
+      r4 <d'' e''>4-. q4-. |
+
+      r4 <e'' g''>4-. q4-. |
+      r4 <fis'' b''>4-. q4-. |
+      r4 <d'' fis''>4-. q4-. |
+      r4 <d'' e''>4-. q4-. |
     }
   >> \oneVoice
+
+  << { \voiceTwo
+      b'2\( d''4 |
+      b'2 d''4 |
+      a'4 g' fis' |
+      a'4 g' e'\) |
+
+      b'2\(-"Slur pass over" d''4 |
+      b'2 d''4 |
+      \voiceOne fis''4 g'' fis'' |
+      a''4 g''8 e'' fis'' g'' |
+    }
+    \new Voice { \voiceOne\tiny
+      r4 <e'' g''>-. g''-. |
+      r4 <fis'' b''>-. b''-. |
+      r4 d''-. r |
+      r4 d''-. r |
+
+      r4 <e'' g''>-. g''-. |
+      r4 <fis'' b''>-. b''-. |
+      \voiceTwo r4 d''-. d''-. |
+      r4 d''-. r |
+    }
+  >> \oneVoice
+
+  <d'' g'' b''>2\)\( e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <b' d'' a''>4\arpeggio g'' fis'' |
+  <b' e'' a''>4\arpeggio g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 d'''4 |
+  <b' d'' fis''>4 g'' fis'' |
+  <b' e'' a''>4 g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <b' d'' a''>4\arpeggio g'' fis'' |
+  <b' e'' a''>4\arpeggio g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <g' b' e''>2 dis''4 |
+  <fis' a' d''>2.\) |
+
+  d'4 b8 c' d' e' |
+  d'4 b8 c' d' e' |
+  d'2 b4 ~ |
+  4 b'4.\( b'8 |
+  
+  <d' g' b'>2 e'4-.\) |
+  r4 <c' fis' b'>4.\( fis'8 |
+  <b d' a'>4 g' fis' |
+  <b e' a'>4 \tuplet 3/2 { g'8 a' g' } e'4 |
+  
+  d'4\) b8 c' d' e' |
+  d'4 b8 c' d' e' |
+  d'2 b4 ~ |
+  4 g'4.\( g'8 |
+  
+  <b d' g'>2 fis'4-.\) |
+  r4 <b d' e'>4.\( fis'8 |
+  <b d' e'>2. 
+  \time 4/4|
+  <fis a d'>1\) |
+
+
+  \bar "||"
+  \key c \major
+  \tempo "Allegretto" 4 = 108
+
+  a8 a a a a4. a8 |
+  a8\arpeggio a a a a2 |
+  a8 a a a a4. a8 |
+  a8 a a a a2 |
+  
+  a8 a a a a4. a8 |
+  a8\arpeggio a a a a2 |
+  a8 a a a a4 a |
+  
+  a2 a |
+  a2 a |
+  a2. r4\fermata |
 
 }

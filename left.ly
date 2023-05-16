@@ -69,6 +69,111 @@ left = {
   \bar "||"
   \time 3/4
 
-  \clef "treble" r4 r r |
+
+  \clef "treble" r4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  g4 <d' fis'>-. q-. |
+  e4 <b d'>-. q-. |
+
+  a4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  g4 <d' fis'>-. q-. |
+  e4 <b d'>-. q-. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  a4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  g4 <d' fis'>-. q-. |
+  e4 <b d'>-. q-. |
+
+  a4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  \clef "bass" e4 <b d'>-. q-. |
+  b,4 <fis a>-. q-. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+  \repeat unfold 3 {
+    a,4 <e g> q |
+    d4 <fis a> q |
+    g,4 <d fis> q |
+    e,4 <b, d> q |
+  }
+
+
+
+
+
+
+
+
+
+
+  a,4 <e g> q |
+  d4 <fis a> q |
+  g,4 <d fis> q |
+  b,,4 <fis, a,> q |
+
+  <a,, a,>4-- <e g>-. q-. |
+  <d, d>4-- <fis a>-. q-. |
+  <g,, g,>4-- <d fis>-. q-. |
+  e,4-- <b, d>-. q-. |
+
+  <a,, a,>4 <e g> q |
+  <d, d>4 <fis a> q |
+  <g,, g,>4 <d fis> q |
+  <e, \parenthesize e,,>4 <b, d> q |
+
+  <a,, a,>4--  <e g>-. q-. |
+  <d, d>4-- <fis a>-. q-. |
+  <g,, g,>4-- <d fis>-. q-. |
+  e,4-- <b, d>-. q-. |
+
+  <a,, a,>4 <e g> q |
+  <d, d>4 <fis a> q |
+  <g,, g,>4-. <fis,, fis,>-. <e,, e,>-. |
+  \time 4/4
+  \ottava -1 b,,4-. a,,-. g,,2 \ottava 0 |
+
+
+  \bar "||"
+  \key c \major
+
+
+  f,8 a a a a a a a |
+  f,8 a a a a a a a |
+  f,8 a a a a a a a |
+  f,8 a a a a a a a |
+  
+  f,8 a a a a a a a |
+  f,8 a a a a a a a |
+  f,8 a a a a a a a |
+  
+  a8 a a a r a a a |
+  r8 a a a r a a a |
+  a2. r4 |
 
 }
