@@ -183,6 +183,21 @@ left = {
   s2. |
   \time 4/4
 
-  cis,
+  cis,2. <dis ais cis'>4 |
+  <e, b,>2 <e gis b>2 |
+  cis,2. <dis ais cis'>4 |
+  <e, b,>2 <e gis b e'>2 |
+  
+  \time 3/4 cis,2 <dis ais cis'>4 |
+  \time 4/4 <e, b,>2 <e gis b e'>2 |
+  \time 3/4 cis,2 <dis ais cis'>4 |
+  \time 4/4 \tuplet 3/2 { <e, b,>2 <e gis b e'>4 ~ } 2 |
 
+  \time 3/4 dis,2 <dis ais cis'>4 |
+  \time 4/4 <e, b,>2 <e gis b>2 |
+  \time 3/4 dis,2 <dis ais cis'>4 |
+  \time 4/4 <e, b,>2 <e gis b e'>2 |
+
+  a8  
+  
 }

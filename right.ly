@@ -181,8 +181,23 @@ right = {
   \change Staff = "left" dis,4 ais, dis |
   dis4 ais dis' |
   \change Staff = "right" dis'4 ais' dis'' |
-  \time 4/4
+  \time 4/4 \tempo "Andante" 4 = 72
 
-  dis''
+  dis''2. <fis' ais'>4 |
+  <dis' gis'>2 <cis' fis'>4 dis'' ~ |
+  2. <fis' ais'>4 |
+  <dis' gis'>2 <gis' b'>4 cis'' |
+  
+  \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b' } |
+  \time 4/4 <fis' ais'>4 fis' <dis' gis'> \tuplet 3/2 { gis'8 ais' b' } |
+  \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 fis'' gis'' } |
+  \time 4/4 \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4 \tuplet 3/2 { r8 ais' b' } |
+  
+  \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais' } |
+  \time 4/4 <dis' gis'>4. fis'16 e' <cis' dis'>4 \tuplet 3/2 { r8 ais' b' } |
+  \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } |
+  \time 4/4 <fis' ais'>4 gis' <dis' fis' b'>2 |
+  
+  a8
 
 }
