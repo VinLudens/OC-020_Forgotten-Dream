@@ -163,7 +163,7 @@ right = {
   \key c \major
   \tempo "Allegretto" 4 = 108
 
-  c'8 d' e' g' b'4. b'8 |
+  c'8-"slurs" d' e' g' b'4. b'8 |
   <d' fis' b'>8\arpeggio a' fis' d' b2 |
   c'8 d' e' g' d''4. e''8 |
   <e' d''>8 b' g' e' d'2 |
@@ -183,6 +183,8 @@ right = {
   \change Staff = "right" dis'4 ais' dis'' |
   \time 4/4 \tempo "Andante" 4 = 72
 
+  \bar "||"
+
   dis''2. <fis' ais'>4 |
   <dis' gis'>2 <cis' fis'>4 dis'' ~ |
   2. <fis' ais'>4 |
@@ -198,6 +200,58 @@ right = {
   \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } |
   \time 4/4 <fis' ais'>4 gis' <dis' fis' b'>2 |
   
-  a8
+
+  \tempo "Allegretto" 4 = 108
+
+  dis'8\( e' fis' gis' dis''4. 8 |
+  <fis' dis''> cis'' ais' fis' dis'2\) |
+  e'8\( fis' gis' b' fis''4. gis''8 |
+  <ais' fis''>8 dis'' ais' fis' dis'2\) |
+  
+  cis'8\( dis' e' fis' b'4. ais'8 |
+  <dis' fis' b'>\arpeggio ais' fis' dis' cis'2\) |
+  \key c \minor
+  d'8\( es' f' as' bes'4. bes'8 |
+  bes'8 as' f' es' d'2\) |
+  
+  d''8\( es'' f'' as'' bes''4. bes''8 |
+  bes'' as'' f'' es'' d''2\) |
+  \ottava 1 d'''8\( es''' f''' as''' bes'''4. es''''8 |
+
+  \time 7/4
+  <fis''' es''''>4. q8 \tuplet 3/2 { q8 des'''' b''' } % 3/4
+  <f''' as''' es''''>2 <f''' as''' des''''>4.\) \ottava 0 cis'''16\( dis''' | % 4/4
+  \key e \major
+  <gis'' b'' e'''>4. q8 \tuplet 3/2 { q8 dis''' cis''' }
+  <fis'' a'' e'''>2 <fis'' a'' dis'''>4.\) dis''16\( e'' |
+  <gis' b' fis''>4. <b' fis''>8 \tuplet 3/2 { q8 e'' dis'' }
+  <gis' cis''>2 <gis' b'>4.\) dis''16\( e'' |
+  <gis' b' fis''>4. <b' fis''>8 \tuplet 3/2 { q8 gis'' dis'' }
+  <gis' dis''>4 cis''4 <gis' b' e''>2\) ~ |
+  \time 4/4
+  q r8 a'16\( b' a' gis' fis' gis' |
+  \time 7/4
+  <e' a'>4. <e' b'>8 \tuplet 3/2 { <e' a'>8 gis' fis' }
+  <dis' a'>2 <dis' gis'>4.\) \ottava 0 gis'16\( a' |
+  \key g \major
+  <c' e' b'>4. <c' e' c''>8 \tuplet 3/2 { <c' e' b'>8 a' g' }
+  <c' e' b'>2\) e'8 \change Staff = "left" \voiceThree c' e' fis' | \change Staff = "right" \oneVoice
+  
+
+
+
+
+
+
+  \bar "||"
+  \time 3/4
+  
+  << { \voiceOne
+      b'4
+    }
+    \new Voice { \voiceTwo
+      r
+    }
+  >> \oneVoice
 
 }

@@ -183,6 +183,8 @@ left = {
   s2. |
   \time 4/4
 
+  \bar "||"
+
   cis,2. <dis ais cis'>4 |
   <e, b,>2 <e gis b>2 |
   cis,2. <dis ais cis'>4 |
@@ -198,6 +200,58 @@ left = {
   \time 3/4 dis,2 <dis ais cis'>4 |
   \time 4/4 <e, b,>2 <e gis b e'>2 |
 
-  a8  
+
+
+
+  gis,,8 dis, gis, b, dis b, gis b, |
+  fis,8 cis fis ais fis cis fis, cis |
+  e,8 b, e b, e, b, e b, |
+  dis,8 ais, dis fis dis ais, dis, ais, |
+  
+  cis,8 gis, cis gis, cis, gis, cis gis, |
+  b,,8 gis, b, gis, b,, gis, b, gis, |
+  \key c \minor
+  bes,,4-> d8 f bes f d f |
+  b,,4-> d8 f b f d f |
+  
+  \clef "treble" bes8 d' f' bes' f' d' bes d' |
+  b8 fis' b' fis' b fis' b' fis' |
+  bes'8 d'' f'' bes'' f'' d'' bes' d'' |
+  
+  \time 7/4
+  b'8 fis'' b'' fis'' b'4 % 3/4
+  des''8 f'' as'' f'' des'' f'' as''4 | % 4/4
+  \key e \major
+  e'8 b' e'' b' e'4
+  fis'8 a' cis'' a' fis' a' cis''4 |
+  gis8 dis' gis' dis' gis4
+  a8 e' a' e' a e' a'4 |
+  gis8 dis' gis' dis' gis4
+  a8 e' a' e' a e' a'8 e' |
+  \time 4/4
+  a2 r |
+  \time 7/4
+  \clef "bass" fis,8 cis fis a fis4
+  b,8 dis fis b fis dis b,4 |
+  \key g \major
+  c8 e g e c4
+  << { \voiceTwo
+      s2 r8 c'4. ~ |
+    }
+    \new Voice { \voiceThree
+      d8 fis a fis d2 |
+    }
+  >> \oneVoice
+
+  \bar "||"
+  \time 3/4
+
+  << { \voiceOne
+      c'
+    }
+    \new Voice { \voiceTwo
+      r
+    }
+  >> \oneVoice
   
 }
