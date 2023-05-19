@@ -316,27 +316,89 @@ right = {
   <fis' a' d''>2.-.) |
 
 
-  d'4 b8 c' d' e' |
+  d'4 b8\( c' d' e' |
   b'2 fis'4 |
-  b'4 a'8 b' c'' d'' |
+  b'4\) a'8\( b' c'' d'' |
   fis''2 e''4 |
   
-  d''4 fis'8 g' d'' c'' |
-  b'4 eis'8 fis' b' a' |
+  d''4\) fis'8\( g' d'' c'' |
+  b'4\) eis'8\( fis' b' a' |
   a'4 g'4. fis'8 |
-  <e' b'>2. |
+  <e' b'>2.\) |
   
-  b'4 g'8 a' b' c'' |
-  fis''2 e''4 |
-  <b' dis''>4 <cis'' e''> <dis'' fis''> |
+  b'4\( g'8 a' b' c'' |
+  fis''2 e''4\) |
+  <b' dis''>4\( <cis'' e''> <dis'' fis''> |
   <b' g''>4 <a' fis''> <g' e''> |
   
   <fis' d''>4 <e' c''> <d' b'> |
   <c' a'>4 <b g'> <c' a'> |
-  <b d' g'>2. |
-  r2 ais''4 |
+  <b d' g'>2.\) |
+  r2 ais''4\( |
   
   
-  <d'' g'' b''>2
+  <d'' g'' b''>2 e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <b' d'' a''>4\arpeggio g'' fis'' |
+  <b' e'' a''>4\arpeggio g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 d'''4 |
+  <b' d'' fis''>4 g'' fis'' |
+  <b' e'' a''>4 g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <b' d'' a''>4\arpeggio g'' fis'' |
+  <b' e'' a''>4\arpeggio g'' e''\) |
+
+  <d'' g'' b''>2\( e''4 |
+  <c'' fis'' b''>2 fis''4 |
+  <g' b' e''>2 dis''4 |
+  <fis' a' d''>2.\) |
+
+  d'4 b8 c' d' e' |
+  d'4 b8 c' d' e' |
+  d'2 b4 ~ |
+  4 b'4.\( b'8 |
+  
+  <d' g' b'>2 e'4-.\) |
+  r4 <c' fis' b'>4.\( fis'8 |
+  <b d' a'>4 g' fis' |
+  <b e' a'>4 \tuplet 3/2 { g'8 a' g' } e'4 |
+  
+  d'4\) b8 c' d' e' |
+  d'4 b8 c' d' e' |
+  d'2 b4 ~ |
+  4 g'4.\( g'8 |
+  
+  <b d' g'>2 fis'4-.\) |
+  r4 <b d' e'>4.\( fis'8 |
+  <b d' e'>2. 
+  <fis a d'>2.\) |
+
+
+
+  d'4 b8\( c' d' e' |
+  b'2 fis'4 |
+  b'4\) a'8\( b' c'' d'' |
+  fis''2 e''4 |
+  
+  d''4\) fis'8\( g' d'' c'' |
+  b'4\) eis'8\( fis' b' a' |
+  a'4 g'4. fis'8 |
+  <e' b'>2.\) |
+  
+  d''4 b'8\( c'' d'' e'' |
+  b''2 fis''4 |
+  b''4\) a''8\( b'' c''' d''' |
+  fis'''2 e'''4 |
+  
+  d'''4\) fis''8\( g'' <b'' d'''> <a'' c'''> |
+  <g'' b''>4\) <c'' e''>8\( <d'' fis''> <fis'' b''> <fis'' a''> |
+  <b' d'' g''>2.\) |
+  r2. |
+
+  \bar "|."
 
 }

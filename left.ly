@@ -337,6 +337,68 @@ left = {
  \ottava -1  g,,4-. \ottava 0 r2 |
 
 
-  a4 a q |
+  \repeat unfold 3 {
+    a,4 <e g> q |
+    d4 <fis a> q |
+    g,4 <d fis> q |
+    e,4 <b, d> q |
+  }
+
+
+
+
+
+
+
+
+
+
+  a,4 <e g> q |
+  d4 <fis a> q |
+  g,4 <d fis> q |
+  b,,4 <fis, a,> q |
+
+  <a,, a,>4-- <e g>-. q-. |
+  <d, d>4-- <fis a>-. q-. |
+  <g,, g,>4-- <d fis>-. q-. |
+  e,4-- <b, d>-. q-. |
+
+  <a,, a,>4 <e g> q |
+  <d, d>4 <fis a> q |
+  <g,, g,>4 <d fis> q |
+  <e, \parenthesize e,,>4 <b, d> q |
+
+  <a,, a,>4--  <e g>-. q-. |
+  <d, d>4-- <fis a>-. q-. |
+  <g,, g,>4-- <d fis>-. q-. |
+  e,4-- <b, d>-. q-. |
+
+  <a,, a,>4 <e g> q |
+  <d, d>4 <fis a> q |
+  <g,, g,>4-. <fis,, fis,>-. <e,, e,>-. |
+  \ottava -1 b,,4-. a,,-. g,,-. \ottava 0 |
+  
+  
+  <a,, a,>4 <e g>-. q-. |
+  <d, d>4 <fis a>-. q-. |
+  g,4 <d fis>-. q-. |
+  e,4 <b, d>-. q-. |
+  
+  a,4 <e g>-. q-. |
+  d4 <fis a>-. q-. |
+  g,4 <d fis> q |
+  e4 <b d'> q |
+  
+  \clef "treble" a4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  g4 <d' fis'>-. q-. |
+  e4 <b d'>-. q-. |
+  
+  a4 <e' g'>-. q-. |
+  d'4 <fis' a'>-. q-. |
+  \clef "bass" g4-.\( d-. b,-. |
+  <g,, g,>4-.\) r2 |
+
+  \bar "|."
 
 }
