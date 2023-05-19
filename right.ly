@@ -235,7 +235,7 @@ right = {
   <dis' a'>2 <dis' gis'>4.\) \ottava 0 gis'16\( a' |
   \key g \major
   <c' e' b'>4. <c' e' c''>8 \tuplet 3/2 { <c' e' b'>8 a' g' }
-  <c' e' b'>2\) e'8 \change Staff = "left" \voiceThree c' e' fis' | \change Staff = "right" \oneVoice
+  <c' e' b'>2\) e'8 \change Staff = "left" \voiceThree \clef "treble" c' e' fis' | \change Staff = "right" \oneVoice
   
 
 
@@ -245,13 +245,98 @@ right = {
 
   \bar "||"
   \time 3/4
-  
-  << { \voiceOne
-      b'4
+  \tempo "Andantino" 2. = 80
+
+  << { \voiceTwo
+      b'2. ~ |
+      b'2. ~ |
+      b'2. ~ |
+      b'2. |
+
+      \acciaccatura d''8 b'2. ~ |
+      b'2. ~ |
+      b'2. ~ |
+      b'2. |
     }
-    \new Voice { \voiceTwo
-      r
+    \new Voice { \voiceOne\tiny
+      r4 <e'' g''>4-. q4-. |
+      r4 <fis'' b''>4-. q4-. |
+      r4 <d'' fis''>4-. q4-. |
+      r4 <d'' e''>4-. q4-. |
+
+      r4 <e'' g''>4-. q4-. |
+      r4 <fis'' b''>4-. q4-. |
+      r4 <d'' fis''>4-. q4-. |
+      r4 <d'' e''>4-. q4-. |
     }
   >> \oneVoice
+
+  << { \voiceTwo
+      b'2\( d''4 |
+      b'2 d''4 |
+      a'4 g' fis' |
+      a'4 g' e'\) |
+
+      b'2\(-"Slur pass over" d''4 |
+      b'2 d''4 |
+      \voiceOne fis''4 g'' fis'' |
+      a''4 g''8 e'' fis'' g'' |
+    }
+    \new Voice { \voiceOne\tiny
+      r4 <e'' g''>-. g''-. |
+      r4 <fis'' b''>-. b''-. |
+      r4 d''-. r |
+      r4 d''-. r |
+
+      r4 <e'' g''>-. g''-. |
+      r4 <fis'' b''>-. b''-. |
+      \voiceTwo r4 d''-. d''-. |
+      r4 d''-. r |
+    }
+  >> \oneVoice
+
+  <d'' g'' b''>2\)( e''4 |
+  <c'' fis'' b''>2-.) fis''4( |
+  <b' d'' a''>4-.) g''( fis'' |
+  <b' e'' a''>4-.) g''( e'' |
+  
+  <d'' g'' b''>2-.) e''4( |
+  <c'' fis'' b''>2-.) d'''4( |
+  <d'' fis''>4-.) g''( fis'' |
+  <b' e'' a''>4-.) g''( e'' |
+  
+  <d'' g'' b''>2-.) e''4( |
+  <c'' fis'' b''>2-.) fis''4( |
+  <b' d'' a''>4-.) g''( fis'' |
+  <b' e'' a''>4-.) g''( e'' |
+
+  <d'' g'' b''>2-.) e''4( |
+  <c'' fis'' b''>2-.) fis''4( |
+  <g' b' e''>2-.) dis''4( |
+  <fis' a' d''>2.-.) |
+
+
+  d'4 b8 c' d' e' |
+  b'2 fis'4 |
+  b'4 a'8 b' c'' d'' |
+  fis''2 e''4 |
+  
+  d''4 fis'8 g' d'' c'' |
+  b'4 eis'8 fis' b' a' |
+  a'4 g'4. fis'8 |
+  <e' b'>2. |
+  
+  b'4 g'8 a' b' c'' |
+  fis''2 e''4 |
+  <b' dis''>4 <cis'' e''> <dis'' fis''> |
+  <b' g''>4 <a' fis''> <g' e''> |
+  
+  <fis' d''>4 <e' c''> <d' b'> |
+  <c' a'>4 <b g'> <c' a'> |
+  <b d' g'>2. |
+  r2 ais''4 |
+  
+  
+  <d'' g'' b''>2
 
 }

@@ -96,7 +96,7 @@ left = {
 
   a4 <e' g'>-. q-. |
   d'4 <fis' a'>-. q-. |
-  g4 <d' fis'>-. q-. |
+  g4 <b d'>-. q-. |
   e4 <b d'>-. q-. |
 
   a4 <e' g'>-. q-. |
@@ -238,7 +238,7 @@ left = {
   << { \voiceTwo
       s2 r8 c'4. ~ |
     }
-    \new Voice { \voiceThree
+    \new Voice { \voiceOne
       d8 fis a fis d2 |
     }
   >> \oneVoice
@@ -246,12 +246,97 @@ left = {
   \bar "||"
   \time 3/4
 
-  << { \voiceOne
-      c'
-    }
-    \new Voice { \voiceTwo
-      r
-    }
-  >> \oneVoice
+
+  << { \voiceTwo
+    c'2. ~ |
+    c'2. ~ |
+    c'2. ~ |
+    c'2. ~ |
+    
+    c'2. ~ |
+    c'2. ~ |
+    c'2. ~ |
+    c'2. |
+  }
+  \new Voice { \voiceOne
+    \clef "treble" r4 <e' g'>-. q-. |
+    r4 <fis' a'>-. q-. |
+    r4 <d' fis'>-. q-. |
+    r4 <d' e'>-. q-. |
+
+    r4 <e' g'>-. q-. |
+    r4 <fis' a'>-. q-. |
+    r4 <d' fis'>-. q-. |
+    r4 <d' e'>-. q-. |
+  } >> \oneVoice
+
+
+
+  r4 <e' g'>-. q-. |
+  \oneVoice r4 <fis' a'>-. q-. |
+  r4 <b d'>-. q-. |
+  r4 <g b>-. q-. |
+
+  r4 <e' g'>-. q-. |
+  r4 <fis' a'>-. q-. |
+  \clef "bass" r4 <g b>-. q-. |
+  r4 <fis a>-. r |
+
+
+
+
+
+
+
+
+
+
+
+
+
+  \repeat unfold 3 {
+    r4 a,( <e g>-.) |
+    r4 d( <fis a>-.) |
+    r4 g,( <d fis>-.) |
+    r4 e,( <b, d>-.) |
+  }
+
+
+
+
+
+
+
+
+
+
+  r4 a,( <e g>-.) |
+  r4 d( <fis a>-.) |
+  r4 g,( <d fis>-.) |
+  r4 b,,-. <fis, a,>-. |
+
+
+  <a,, a,>4 <e g>-. q-. |
+  <d, d>4 <fis a>-. q-. |
+  g,4 <d fis>-. q-. |
+  e,4 <b, d>-. q-. |
   
+  a,4 <e g>-. q-. |
+  d4 <fis a>-. q-. |
+  g,4 <d fis>-. q-. |
+  e,4 <b, d> q |
+  
+  a,4 <e g>-. q-. |
+  d4 <fis a>-. q-. |
+  b,4 <dis fis> q |
+  e,4 <b, d> q |
+
+  a,4 <e g> q |
+  d4 <fis a> q |
+  g,4-. d-. g-. |
+ \ottava -1  g,,4-. \ottava 0 r2 |
+
+
+  a4 a q |
+
 }
