@@ -163,42 +163,42 @@ right = {
   \key c \major
   \tempo "Allegretto" 4 = 108
 
-  c'8-"slurs" d' e' g' b'4. b'8 |
-  <d' fis' b'>8\arpeggio a' fis' d' b2 |
-  c'8 d' e' g' d''4. e''8 |
-  <e' d''>8 b' g' e' d'2 |
+  c'8\( d' e' g' b'4. b'8 |
+  <d' fis' b'>8\arpeggio a' fis' d' b2\) |
+  c'8\( d' e' g' d''4. e''8 |
+  <e' d''>8 b' g' e' d'2\) |
   
   \key gis \minor
-  e'8 fis' gis' b' dis''4. cis''8 |
-  <fis' b' dis''>8\arpeggio cis'' b' fis' dis'2 |
-  e'8 fis' gis' b' fis''4 ais'' |
+  e'8\( fis' gis' b' dis''4. cis''8 |
+  <fis' b' dis''>8\arpeggio cis'' b' fis' dis'2\) |
+  e'8\( fis' gis' b' fis''4 ais'' |
   
   <ais' dis'' g''>2 <g' ais' dis''> |
   <dis' g' ais'>2 <ais dis' g'> |
-  <dis ais dis'>2.\fermata r4\fermata |
+  <dis ais dis'>2.\)\fermata r4\fermata |
   
   \time 3/4
-  \change Staff = "left" dis,4 ais, dis |
+  \change Staff = "left" dis,4\( ais, dis |
   dis4 ais dis' |
   \change Staff = "right" dis'4 ais' dis'' |
   \time 4/4 \tempo "Andante" 4 = 72
 
   \bar "||"
 
-  dis''2. <fis' ais'>4 |
-  <dis' gis'>2 <cis' fis'>4 dis'' ~ |
+  dis''2.\)\( <fis' ais'>4 |
+  <dis' gis'>2 <cis' fis'>4\) dis''\( ~ |
   2. <fis' ais'>4 |
-  <dis' gis'>2 <gis' b'>4 cis'' |
+  <dis' gis'>2\) <gis' b'>4\( cis'' |
   
   \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b' } |
-  \time 4/4 <fis' ais'>4 fis' <dis' gis'> \tuplet 3/2 { gis'8 ais' b' } |
+  \time 4/4 <fis' ais'>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
   \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 fis'' gis'' } |
-  \time 4/4 \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4 \tuplet 3/2 { r8 ais' b' } |
+  \time 4/4 \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4\) \tuplet 3/2 { r8 ais'\( b' } |
   
   \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais' } |
-  \time 4/4 <dis' gis'>4. fis'16 e' <cis' dis'>4 \tuplet 3/2 { r8 ais' b' } |
+  \time 4/4 <dis' gis'>4. fis'16 e' <cis' dis'>4\) \tuplet 3/2 { r8 ais'\( b' } |
   \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } |
-  \time 4/4 <fis' ais'>4 gis' <dis' fis' b'>2 |
+  \time 4/4 <fis' ais'>4 gis' <dis' fis' b'>2\) |
   
 
   \tempo "Allegretto" 4 = 108
