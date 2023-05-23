@@ -55,15 +55,15 @@ left = {
 
   cis8 gis cis' e' ~ 2 |
 
-  \time 3/4
-  a,8 e a e a,4 |
-  \time 4/4
+  \time 7/4
+  a,8 e a e a,4 
+  % \time 4/4
   b,8 dis fis b fis dis b,4 |
   \key g \major
-  \time 3/4
-  c8 e g e c4 |
+  % \time 3/4
+  c8 e g e c4 
 
-  \time 4/4
+  % \time 4/4
   d8 fis a fis d2 |
 
   \bar "||"
@@ -190,17 +190,27 @@ left = {
   cis,2. <dis ais cis'>4 |
   <e, b,>2 <e gis b e'>2 |
   
-  \time 3/4 cis,2 <dis ais cis'>4 |
-  \time 4/4 <e, b,>2 <e gis b e'>2 |
-  \time 3/4 cis,2 <dis ais cis'>4 |
-  \time 4/4 \tuplet 3/2 { <e, b,>2 <e gis b e'>4 ~ } 2 |
+  \time 7/4
+  % \time 3/4
+  cis,2 <dis ais cis'>4 
+  % \time 4/4
+  <e, b,>2 <e gis b e'>2 |
+  % \time 3/4
+  cis,2 <dis ais cis'>4 
+  % \time 4/4
+  \tuplet 3/2 { <e, b,>2 <e gis b e'>4 ~ } 2 |
 
-  \time 3/4 dis,2 <dis ais cis'>4 |
-  \time 4/4 <e, b,>2 <e gis b>2 |
-  \time 3/4 dis,2 <dis ais cis'>4 |
-  \time 4/4 <e, b,>2 <e gis b e'>2 |
+  % \time 3/4
+  dis,2 <dis ais cis'>4 
+  % \time 4/4
+  <e, b,>2 <e gis b>2 |
+  % \time 3/4
+  dis,2 <dis ais cis'>4 
+  % \time 4/4
+  <e, b,>2 <e gis b e'>2 |
 
 
+  \time 4/4
 
 
   gis,,8 dis, gis, b, dis b, gis b, |

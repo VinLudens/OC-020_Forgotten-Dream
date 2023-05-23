@@ -55,14 +55,14 @@ right = {
   >> \oneVoice
   dis''2 \appoggiatura { e''8 fis'' } cis''4\) b'8\( gis' |
 
-  \time 3/4
-  <e' a'>4. <e' a'>8 \tuplet 3/2 { <e' a'>8 gis' fis' } |
-  \time 4/4
+  \time 7/4
+  <e' a'>4. <e' a'>8 \tuplet 3/2 { <e' a'>8 gis' fis' } 
+  % \time 4/4
   <dis' a'>2 <dis' gis'>4.\) gis'16\(-"bend slur" a' |
   \key g \major
-  \time 3/4
-  <c' e' b'>4. <c' e' b'>8 \tuplet 3/2 { <c' e' b'>8 a' g' } |
-  \time 4/4
+  % \time 3/4
+  <c' e' b'>4. <c' e' b'>8 \tuplet 3/2 { <c' e' b'>8 a' g' } 
+  % \time 4/4
   <d' fis' b'>2 e'8 \change Staff = "left" \clef "treble" d' e' fis' | \change Staff = "right"
 
   \bar "||"
@@ -190,17 +190,27 @@ right = {
   2. <fis' ais'>4 |
   <dis' gis'>2\) <gis' b'>4\( cis'' |
   
-  \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b' } |
-  \time 4/4 <fis' ais'>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
-  \time 3/4 dis''4. dis''8 \tuplet 3/2 { dis''8 fis'' gis'' } |
-  \time 4/4 \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4\) \tuplet 3/2 { r8 ais'\( b' } |
+  \time 7/4
+  % \time 3/4
+  dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b' } 
+  % \time 4/4
+  <fis' ais'>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
+  % \time 3/4
+  dis''4. dis''8 \tuplet 3/2 { dis''8 fis'' gis'' } 
+  % \time 4/4
+  \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4\) \tuplet 3/2 { r8 ais'\( b' } |
   
-  \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais' } |
-  \time 4/4 <dis' gis'>4. fis'16 e' <cis' dis'>4\) \tuplet 3/2 { r8 ais'\( b' } |
-  \time 3/4 cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } |
-  \time 4/4 <fis' ais'>4 gis' <dis' fis' b'>2\) |
+  % \time 3/4
+  cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais' } 
+  % \time 4/4
+  <dis' gis'>4. fis'16 e' <cis' dis'>4\) \tuplet 3/2 { r8 ais'\( b' } |
+  % \time 3/4
+  cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } 
+  % \time 4/4
+  <fis' ais'>4 gis' <dis' fis' b'>2\) |
   
 
+  \time 4/4
   \tempo "Allegretto" 4 = 108
 
   dis'8\( e' fis' gis' dis''4. 8 |

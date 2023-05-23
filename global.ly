@@ -4,6 +4,11 @@
 global = {
   \key g \major
   \time 4/4
+  \overrideTimeSignatureSettings
+    7/4        % timeSignatureFraction
+    1/4        % baseMomentFraction
+    3,2,2      % beatStructure
+    #'()       % beamExceptions
 }
 
 %{
