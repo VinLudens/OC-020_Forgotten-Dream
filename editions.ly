@@ -7,5 +7,9 @@
 \addEdition fingering
 \addEdition dynamics
 
-\editionMod dynamics 1 0/8 music.Dynamics.A -"dyn"
-\editionMod dynamics 1 0/8 music.Voice.A -"dyn"
+pcant = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
+  (markup #:dynamic "p" #:normal-text #:italic "cantabile"))
+
+\editionMod dynamics 1 0/8 music.Dynamics \pcant
+\editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.whiteout = #3
+\editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.X-offset = #-0.4
