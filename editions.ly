@@ -92,6 +92,8 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod dynamics 206 1/4 music.Dynamics \<
 
+\editionMod dynamics 207 0/4 music.Dynamics.A ^"rit."
+
 \editionMod dynamics 208 0/4 music.Dynamics \!
 
 \editionMod dynamics 209 1/4 music.Dynamics \>
