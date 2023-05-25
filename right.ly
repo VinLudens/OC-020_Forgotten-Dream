@@ -23,16 +23,16 @@ right = {
   \time 4/4
   fis'2 e'\) |
   b''2.\( g''4 |
-  fis''2 \appoggiatura { g''8 a'' } e''4\) d''8-"Fix slur"\( b' |
+  fis''2 \appoggiatura { g''8-4 a''-5 } e''4-2\) d''8-"Fix slur"\( b' |
 
   c''8 d'' e'' g'' b''4. 8 |
-  <b'' fis'' d''>\arpeggio a'' fis'' d'' b'2\) |
-  c''8\( d'' e'' g'' d'''4. e'''8 |
-  <d''' fis''>8 b'' fis'' d'' b'2\) |
+  <b''-5 fis'' d''>\arpeggio a''-4 fis'' d'' b'2\) |
+  c''8\( d'' e''-3 g''-4 d'''4. e'''8 |
+  <d'''-4 fis''>8 b''-3 fis''-2 d'' b'2\) |
 
   \tuplet 6/4 { c''8[\( d'' e'' fis'' g'' a''] } b''4. 8 |
-  \tuplet 6/4 { <b'' fis'' d''>8[\arpeggio a'' fis'' d'' b' fis'] } b'2\) |
-  \tuplet 6/4 { c''8[\( d'' e'' g'' a'' b''] } d'''4 <fis''' d''' a'' fis''> |
+  \tuplet 6/4 { <b'' fis'' d''>8[\arpeggio a'' fis'' d'' b'-1 fis'-2] } b'2-4\) |
+  \tuplet 6/4 { c''8[\( d'' e'' g''-4 a''-1 b''-2] } d'''4-4 <fis''' d''' a'' fis''> |
   <e''' d''' a'' e''>2 <cis''' a'' e''>\) |
 
   \bar "||"
@@ -45,12 +45,12 @@ right = {
 
   gis'2.\( e'4 |
   << { \voiceOne
-      dis'2 \appoggiatura { e'8 fis' } cis'4 r |
+      dis'2 \appoggiatura { e'8-3 fis'-4 } cis'4-2 r |
       gis'' 2.\)_"end slur on other voice"-\( e''4 |
     }
     \new Voice { \voiceTwo
-      s2 cis'4 b8 \change Staff = "left" \voiceOne a |
-      gis4 s2. |
+      s2 cis'4 b8 \change Staff = "left" \voiceOne a-1 |
+      gis4-3 s2. |
     }
   >> \oneVoice
   dis''2 \appoggiatura { e''8 fis'' } cis''4\) b'8\( gis' |
@@ -94,15 +94,15 @@ right = {
   >> \oneVoice
 
   << { \voiceTwo
-      b'2\( d''4 |
-      b'2 d''4 |
-      a'4 g' fis' |
-      a'4 g' e'\) |
+      b'2-1\( d''4-2 |
+      b'2 d''4-2 |
+      a'4-2 g'-1 fis'-2 |
+      a'4-3 g'-2 e'-1\) |
 
-      b'2\(-"Slur pass over" d''4 |
+      b'2-1\(-"Slur pass over" d''4 |
       b'2 d''4 |
-      \voiceOne fis''4 g'' fis'' |
-      a''4 g''8 e'' fis'' g'' |
+      \voiceOne fis''4-3 g''-4 fis'' |
+      a''4 g''8-4 e''-2 fis'' g'' |
     }
     \new Voice { \voiceOne\tiny
       r4 <e'' g''>-. g''-. |
@@ -124,7 +124,7 @@ right = {
 
   <d'' g'' b''>2\( e''4 |
   <c'' fis'' b''>2 d'''4 |
-  <b' d'' fis''>4 g'' fis'' |
+  <b' d'' fis''-3>4 g''-4 fis'' |
   <b' e'' a''>4 g'' e''\) |
 
   <d'' g'' b''>2\( e''4 |
@@ -133,8 +133,8 @@ right = {
   <b' e'' a''>4\arpeggio g'' e''\) |
 
   <d'' g'' b''>2\( e''4 |
-  <c'' fis'' b''>2 fis''4 |
-  <g' b' e''>2 dis''4 |
+  <c'' fis'' b''>2 fis''4-5 |
+  <g' b' e''>2 dis''4-5 |
   <fis' a' d''>2.\) |
 
   d'4 b8 c' d' e' |
@@ -145,7 +145,7 @@ right = {
   <d' g' b'>2 e'4-.\) |
   r4 <c' fis' b'>4.\( fis'8 |
   <b d' a'>4 g' fis' |
-  <b e' a'>4 \tuplet 3/2 { g'8 a' g' } e'4 |
+  <b e' a'>4 \tuplet 3/2 { g'8-4 a'-5 g'-4 } e'4-2 |
   
   d'4\) b8 c' d' e' |
   d'4 b8 c' d' e' |
@@ -171,7 +171,7 @@ right = {
   \key gis \minor
   e'8\( fis' gis' b' dis''4. cis''8 |
   <fis' b' dis''>8\arpeggio cis'' b' fis' dis'2\) |
-  e'8\( fis' gis' b' fis''4 ais'' |
+  e'8\( fis' gis' b'-1 fis''4-4 ais'' |
   
   <ais' dis'' g''>2 <g' ais' dis''> |
   <dis' g' ais'>2 <ais dis' g'> |
@@ -192,18 +192,18 @@ right = {
   
   \time 7/4
   % \time 3/4
-  dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b' } 
+  dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b'-1 } 
   % \time 4/4
-  <fis' ais'>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
+  <fis'-2 ais'-4>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
   % \time 3/4
   dis''4. dis''8 \tuplet 3/2 { dis''8 fis'' gis'' } 
   % \time 4/4
   \tuplet 3/2 { <ais' dis'' ais''>4 b'' <ais' dis'' gis''> ~ } 4\) \tuplet 3/2 { r8 ais'\( b' } |
   
   % \time 3/4
-  cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais' } 
+  cis''4. cis''8 \tuplet 3/2 { cis''8 b' ais'-4 } 
   % \time 4/4
-  <dis' gis'>4. fis'16 e' <cis' dis'>4\) \tuplet 3/2 { r8 ais'\( b' } |
+  <dis' gis'-3>4. fis'16-2 e' <cis' dis'>4\) \tuplet 3/2 { r8 ais'\( b' } |
   % \time 3/4
   cis''4. cis''8 \tuplet 3/2 { cis''8 dis'' ais' } 
   % \time 4/4
@@ -213,10 +213,10 @@ right = {
   \time 4/4
   \tempo "Allegretto" 4 = 108
 
-  dis'8\( e' fis' gis' dis''4. 8 |
+  dis'8-2\( e'-1 fis' gis' dis''4. 8 |
   <fis' dis''> cis'' ais' fis' dis'2\) |
-  e'8\( fis' gis' b' fis''4. gis''8 |
-  <ais' fis''>8 dis'' ais' fis' dis'2\) |
+  e'8\( fis' gis' b'-1 fis''4.-4 gis''8 |
+  <ais' fis''>8 dis'' ais' fis'-1 dis'2-2\) |
   
   cis'8\( dis' e' fis' b'4. ais'8 |
   <dis' fis' b'>\arpeggio ais' fis' dis' cis'2\) |
@@ -326,20 +326,20 @@ right = {
   <fis' a' d''>2.-.) |
 
 
-  d'4 b8\( c' d' e' |
-  b'2 fis'4 |
-  b'4\) a'8\( b' c'' d'' |
-  fis''2 e''4 |
+  d'4-4 b8-2\( c'-3 d'-1 e'-2 |
+  b'2-5 fis'4-2 |
+  b'4-4\) a'8-1\( b'-2 c''-3 d''-1 |
+  fis''2-4 e''4 |
   
-  d''4\) fis'8\( g' d'' c'' |
-  b'4\) eis'8\( fis' b' a' |
-  a'4 g'4. fis'8 |
+  d''4\) fis'8-2\( g'-1 d''-5 c''-4 |
+  b'4-3\) eis'8\( fis' b'-4 a'-3 |
+  a'4-4 g'4. fis'8 |
   <e' b'>2.\) |
   
-  b'4\( g'8 a' b' c'' |
-  fis''2 e''4\) |
-  <b' dis''>4\( <cis'' e''> <dis'' fis''> |
-  <b' g''>4 <a' fis''> <g' e''> |
+  b'4-4\( g'8 a' b'-1 c''-2 |
+  fis''2-4 e''4-3\) |
+  <b' dis''-2>4\( <cis'' e''-3> <dis'' fis''-4> |
+  <b' g''-5>4 <a' fis''> <g' e''> |
   
   <fis' d''>4 <e' c''> <d' b'> |
   <c' a'>4 <b g'> <c' a'> |
@@ -404,9 +404,9 @@ right = {
   b''4\) a''8\( b'' c''' d''' |
   fis'''2 e'''4 |
   
-  d'''4\) fis''8\( g'' <b'' d'''> <a'' c'''> |
-  <g'' b''>4\) <c'' e''>8\( <d'' fis''> <fis'' b''> <fis'' a''> |
-  <b' d'' g''>2.\) |
+  d'''4\) fis''8-2\( g''-1 <b''-3 d'''-5> <a''-2 c'''-4> |
+  <g''-1 b''-3>4\) <c''-1 e''-2>8\( <d''-1 fis''-3> <fis'' b''-5> <fis''-3 a''-5> |
+  <b' d'' g''-4>2.\) |
   r2. |
 
   \bar "|."

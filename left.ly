@@ -38,15 +38,15 @@ left = {
   \bar "||"
   \key e \major
 
-  \clef "bass" e,8 b, e dis cis gis fis4 |
-  cis,8 gis, e dis cis2 |
+  \clef "bass" e,8 b,-2 e-1 dis cis gis fis4 |
+  cis,8 gis,-3 e-1 dis cis2 |
   e8 b e' dis' cis' gis' fis'4 |
   cis8 gis e' dis' cis'2 |
 
   e,8 b, e fis gis b ~ 4 |
 
   cis,8 gis, cis e ~ 2 |
-  e8 b e' fis' gis' b' ~ 4 |
+  e8_5 b e' fis' gis' b' ~ 4 |
 
 
 
@@ -213,7 +213,7 @@ left = {
   \time 4/4
 
 
-  gis,,8 dis, gis, b, dis b, gis b, |
+  gis,,8 dis, gis,-1 b,-2 dis-1 b,-2 gis-1 b, |
   fis,8 cis fis ais fis cis fis, cis |
   e,8 b, e b, e, b, e b, |
   dis,8 ais, dis fis dis ais, dis, ais, |
@@ -246,7 +246,7 @@ left = {
   \key g \major
   c8 e g e c4
   << { \voiceTwo
-      s2 r8 c'4. ~ |
+      s2 r8 c'4.-4 ~ |
     }
     \new Voice { \voiceOne
       d8 fis a fis d2 |
@@ -269,10 +269,10 @@ left = {
     c'2. |
   }
   \new Voice { \voiceOne
-    \clef "treble" r4 <e' g'>-. q-. |
-    r4 <fis' a'>-. q-. |
-    r4 <d' fis'>-. q-. |
-    r4 <d' e'>-. q-. |
+    \clef "treble" r4 <e'-2 g'-1>-. q-. |
+    r4 <fis'-2 a'-1>-. q-. |
+    r4 <d'-3 fis'-2>-. q-. |
+    r4 <d'-3 e'-2>-. q-. |
 
     r4 <e' g'>-. q-. |
     r4 <fis' a'>-. q-. |
