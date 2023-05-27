@@ -23,7 +23,7 @@ right = {
   \time 4/4
   fis'2 e'\) |
   b''2.\( g''4 |
-  fis''2 \appoggiatura { \stemDown g''8-\tweak Y-offset #4.25 -4 a''-5 \stemNeutral } e''4-2\) d''8\( b' |
+  fis''2 \appoggiatura { \stemDown g''8-\tweak Y-offset #3.15 -4 a''-\tweak Y-offset 4.0 -5 \stemNeutral } e''4-2\) d''8\( b' |
 
   c''8 d'' e'' g'' b''4. 8 |
   <b''-5 fis'' d''>\arpeggio a''-4 fis'' d'' b'2\) |

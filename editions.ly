@@ -20,18 +20,20 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 \editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.whiteout = #3
 \editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 
-\editionMod tweaks 6 4/4 music.Voice.A \alterBroken positions #'((0 . 3) ()) PhrasingSlur
+\editionMod tweaks 6 4/4 music.Voice.A \once\alterBroken positions #'((0 . 3) ()) PhrasingSlur
 
 \editionMod dynamics 8 2/4 music.Dynamics \sp
 
+\editionMod tweaks 9 0/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0.3 . 1.3) (0 . -1)) PhrasingSlur
+
 \editionMod tweaks 10 2/4 music.Voice.A \once\override Fingering.Y-offset = #3.6
 
-\editionMod tweaks 10 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 2) (0 . -2)) PhrasingSlur
+\editionMod tweaks 10 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 2) (0 . -1)) PhrasingSlur
 
 \editionMod tweaks 13 2/8 music.Voice.A \once\override Fingering.avoid-slur = #'outside
 \editionMod tweaks 13 3/8 music.Voice.A \once\override Fingering.avoid-slur = #'outside
 
-\editionMod tweaks 15 0/4 music.Voice.A \shape #'((0 . 0) (2 . 1.5) (0 . -0.8) (0 . -2)) PhrasingSlur
+\editionMod tweaks 15 0/4 music.Voice.A \shape #'((0 . 0) (2 . 1.5) (0 . -0.8) (0 . 0)) PhrasingSlur
 
 \editionMod tweaks 17 0/4 music.Voice.A \shape #'((0 . 0) (2 . 1) (-1 . 0) (0 . 0)) PhrasingSlur
 \editionMod dynamics 17 3/4 music.Dynamics \mf
@@ -41,7 +43,7 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod dynamics 19 0/8 music.Dynamics \mp
 
-\editionMod tweaks 23 0/8 music.Voice.A \shape #'((0 . 0) (14 . 2) (-1 . 1) (0 . -11)) PhrasingSlur
+\editionMod tweaks 23 0/8 music.Voice.A \shape #'((0 . 0) (10 . 2) (-1 . 1) (0 . -11.5)) PhrasingSlur
 
 \editionMod tweaks 27 13/8 music.Voice.A \compoundSlur \with {
   % show-grid = ##t
@@ -102,7 +104,7 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod dynamics 61 0/4 music.Dynamics \sp
 
-\editionMod tweaks 64 1/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . -3.7)
+% \editionMod tweaks 64 1/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . -3.7)
 
 \editionMod dynamics 65 0/4 music.Dynamics \sf
 \editionMod dynamics 65 0/4 music.Dynamics \<
