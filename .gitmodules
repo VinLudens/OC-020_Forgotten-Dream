@@ -4,3 +4,6 @@
 [submodule "openlilylib/oll-core"]
 	path = openlilylib/oll-core
 	url = https://github.com/openlilylib/oll-core.git
+[submodule "openlilylib/snippets"]
+	path = openlilylib/snippets
+	url = https://github.com/openlilylib/snippets

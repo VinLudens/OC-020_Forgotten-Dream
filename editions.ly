@@ -43,6 +43,32 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod tweaks 23 0/8 music.Voice.A \shape #'((0 . 0) (14 . 2) (-1 . 1) (0 . -11)) PhrasingSlur
 
+\editionMod tweaks 27 13/8 music.Voice.A \compoundSlur \with {
+  % show-grid = ##t
+  % annotate = ##t
+  % start-point = #'(0 . 0)
+  start-angle = 30
+  start-ratio = 0.2
+  end-point = #'(2 . 2)
+  end-angle = 50
+  end-ratio = 0.4
+  inflection = #'(
+    (X-ratio . 0.7)
+    (Y-offset . 2.0)
+    (ratio-right . 0.35)
+    ;(ratio-left . 0.0)
+    (angle . -30.0)
+    (label . "A")
+  )
+}
+
+
+\editionMod tweaks 28 13/8 music.Voice.A )
+
+\editionMod tweaks 29 0/8 music.Voice.A \shape #'((-4 . -4) (-5 . -3) (-9 . -2) (-9.5 . 0)) Slur
+\editionMod tweaks 29 0/8 music.Voice.A (
+\editionMod tweaks 30 0/8 music.Voice.A )
+
 \editionMod dynamics 27 0/8 music.Dynamics \cresc
 
 \editionMod dynamics 28 3/4 music.Dynamics \f

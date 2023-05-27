@@ -58,7 +58,7 @@ right = {
   \time 7/4
   <e' a'>4. <e' a'>8 \tuplet 3/2 { <e' a'>8 gis' fis' } 
   % \time 4/4
-  <dis' a'>2 <dis' gis'>4.\) gis'16\( a' |
+  <dis' a'>2 <dis' gis'>4.\) gis'16 a' |
   \key g \major
   % \time 3/4
   <c' e' b'>4. <c' e' b'>8 \tuplet 3/2 { <c' e' b'>8 a' g' } 
@@ -70,7 +70,7 @@ right = {
   \tempo "Andantino" 2. = 80
 
   << { \voiceTwo
-      b'2.\) ~ |
+      b'2. ~ |
       b'2. ~ |
       b'2. ~ |
       b'2. |
