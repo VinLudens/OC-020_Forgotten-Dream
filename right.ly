@@ -23,7 +23,7 @@ right = {
   \time 4/4
   fis'2 e'\) |
   b''2.\( g''4 |
-  fis''2 \appoggiatura { g''8-4 a''-5 } e''4-2\) d''8-"Fix slur"\( b' |
+  fis''2 \appoggiatura { \stemDown g''8-\tweak Y-offset #4.25 -4 a''-5 \stemNeutral } e''4-2\) d''8\( b' |
 
   c''8 d'' e'' g'' b''4. 8 |
   <b''-5 fis'' d''>\arpeggio a''-4 fis'' d'' b'2\) |
@@ -45,20 +45,20 @@ right = {
 
   gis'2.\( e'4 |
   << { \voiceOne
-      dis'2 \appoggiatura { e'8-3 fis'-4 } cis'4-2 r |
-      gis'' 2.\)_"end slur on other voice"-\( e''4 |
+      dis'2 \appoggiatura { e'8_3 fis'_4 } cis'4_2 r |
+      \oneVoice gis'' 2.\)-\( e''4 |
     }
     \new Voice { \voiceTwo
       s2 cis'4 b8 \change Staff = "left" \voiceOne a-1 |
       gis4-3 s2. |
     }
   >> \oneVoice
-  dis''2 \appoggiatura { e''8 fis'' } cis''4\) b'8\( gis' |
+  dis''2 \appoggiatura { \stemDown e''8 fis'' \stemNeutral } cis''4\) b'8\( gis' |
 
   \time 7/4
   <e' a'>4. <e' a'>8 \tuplet 3/2 { <e' a'>8 gis' fis' } 
   % \time 4/4
-  <dis' a'>2 <dis' gis'>4.\) gis'16\(-"bend slur" a' |
+  <dis' a'>2 <dis' gis'>4.\) gis'16\( a' |
   \key g \major
   % \time 3/4
   <c' e' b'>4. <c' e' b'>8 \tuplet 3/2 { <c' e' b'>8 a' g' } 

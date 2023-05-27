@@ -20,14 +20,28 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 \editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.whiteout = #3
 \editionMod tweaks 1 0/8 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 
+\editionMod tweaks 6 4/4 music.Voice.A \alterBroken positions #'((0 . 3) ()) PhrasingSlur
+
 \editionMod dynamics 8 2/4 music.Dynamics \sp
 
+\editionMod tweaks 10 2/4 music.Voice.A \once\override Fingering.Y-offset = #3.6
+
+\editionMod tweaks 10 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 2) (0 . -2)) PhrasingSlur
+
+\editionMod tweaks 13 2/8 music.Voice.A \once\override Fingering.avoid-slur = #'outside
+\editionMod tweaks 13 3/8 music.Voice.A \once\override Fingering.avoid-slur = #'outside
+
+\editionMod tweaks 15 0/4 music.Voice.A \shape #'((0 . 0) (2 . 1.5) (0 . -0.8) (0 . -2)) PhrasingSlur
+
+\editionMod tweaks 17 0/4 music.Voice.A \shape #'((0 . 0) (2 . 1) (-1 . 0) (0 . 0)) PhrasingSlur
 \editionMod dynamics 17 3/4 music.Dynamics \mf
 
 \editionMod dynamics 18 0/4 music.Dynamics \>
 \editionMod dynamics 18 2/4 music.Dynamics \!
 
 \editionMod dynamics 19 0/8 music.Dynamics \mp
+
+\editionMod tweaks 23 0/8 music.Voice.A \shape #'((0 . 0) (14 . 2) (-1 . 1) (0 . -11)) PhrasingSlur
 
 \editionMod dynamics 27 0/8 music.Dynamics \cresc
 
