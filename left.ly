@@ -213,7 +213,7 @@ left = {
   \time 4/4
 
 
-  gis,,8 dis, gis,-1 b,-2 dis-1 b,-2 gis-1 b, |
+  gis,,8 dis, gis,_1 b,_2 dis_1 b,_2 gis_1 b, |
   fis,8 cis fis ais fis cis fis, cis |
   e,8 b, e b, e, b, e b, |
   dis,8 ais, dis fis dis ais, dis, ais, |
@@ -246,7 +246,7 @@ left = {
   \key g \major
   c8 e g e c4
   << { \voiceTwo
-      s2 r8 c'4.-4 ~ |
+      s2 r8 c'4.-\tweak Y-offset #-5.5 -4 ~ |
     }
     \new Voice { \voiceOne
       d8 fis a fis d2 |

@@ -141,13 +141,28 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 \editionMod tweaks 87 0/4 music.Voice.A \once\alterBroken eccentricity #'(4 0) PhrasingSlur
 
 \editionMod dynamics 90 0/4 music.Dynamics \p
+
+\editionMod tweaks 94 3/4 music.Voice.A \once\set fingeringOrientations = #'(down)
+
+\editionMod tweaks 95 6/4 music.Voice.A \tupletDown
+\editionMod tweaks 95 3/4 music.Voice.B \tupletDown
+
+\editionMod tweaks 96 0/4 music.Voice.B \tupletNeutral
+\editionMod tweaks 96 6/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . -10)
+\editionMod tweaks 96 19/12 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 2)
+
+\editionMod tweaks 97 0/4 music.Voice.A \tupletNeutral
+
 \editionMod dynamics 98 0/4 music.Dynamics \crescPoco
+\editionMod tweaks 98 0/4 music.Dynamics \once\override DynamicText.X-offset = #-1.2
 
 \editionMod dynamics 104 0/4 music.Dynamics \f
+\editionMod tweaks 104 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 1.5)
 
 \editionMod dynamics 106 0/4 music.Dynamics \sp
 
 \editionMod dynamics 108 0/4 music.Dynamics \pp
+\editionMod dynamics 108 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 0)
 
 \editionMod dynamics 111 0/4 music.Dynamics \mp
 
@@ -156,6 +171,30 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 \editionMod dynamics 115 3/4 music.Dynamics \f
 
 \editionMod dynamics 116 0/4 music.Dynamics \fp
+\editionMod tweaks 116 0/4 music.Voice.H \set fingeringOrientations = #'(up)
+
+\editionMod tweaks 120 0/4 music.Voice.H \unset fingeringOrientations
+
+\editionMod tweaks 128 0/4 music.Voice.A \compoundSlur \with {
+  % show-grid = ##t
+  % annotate = ##t
+  start-point = #'(0 . 0.8)
+  start-angle = -25
+  % start-ratio = 0
+  end-point = #'(0.2 . 7.2)
+  end-angle = -23
+  % end-ratio = 0
+  inflection = #'(
+    (X-ratio . 0.44)
+    ;(Y-offset . 0.0)
+    (angle . 65)
+    (ratio-left . 0.32)
+    (ratio-right . 0.27)
+    (label . "*")
+  )
+}
+
+\editionMod tweaks 132 0/4 music.Voice.A )
 
 \editionMod dynamics 157 0/4 music.Dynamics \<
 
@@ -163,16 +202,24 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod dynamics 163 2/4 music.Dynamics \f
 
+\editionMod tweaks 183 1/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 1)
+
 \editionMod dynamics 196 0/4 music.Dynamics \p
 
 \editionMod dynamics 204 0/4 music.Dynamics \p
+\editionMod tweaks 204 1/4 music.Voice.A \shape #'((0 . -1) (0 . 0) (0 . 0) (0 . 0)) PhrasingSlur
+
+\editionMod tweaks 206 1/4 music.Voice.A \vshape #'((0 . 0) (0 . 0.2) (0 . 0.2) (0 . 0)) PhrasingSlur
 
 \editionMod dynamics 206 1/4 music.Dynamics \<
 
 \editionMod dynamics 207 0/4 music.Dynamics.A ^"rit."
 
 \editionMod dynamics 208 0/4 music.Dynamics \!
+\editionMod tweaks 208 0/4 music.Voice.A \set fingeringOrientations = #'(up)
 
 \editionMod dynamics 209 1/4 music.Dynamics \>
+
+\editionMod tweaks 210 0/4 music.Voice.A \unset fingeringOrientations
 
 \editionMod dynamics 211 0/4 music.Dynamics \!

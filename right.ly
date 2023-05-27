@@ -287,7 +287,7 @@ right = {
       a'4 g' fis' |
       a'4 g' e'\) |
 
-      b'2\(-"Slur pass over" d''4 |
+      b'2 d''4 |
       b'2 d''4 |
       \voiceOne fis''4 g'' fis'' |
       a''4 g''8 e'' fis'' g'' |
@@ -305,7 +305,7 @@ right = {
     }
   >> \oneVoice
 
-  <d'' g'' b''>2\)( e''4 |
+  <d'' g'' b''>2( e''4 |
   <c'' fis'' b''>2-.) fis''4( |
   <b' d'' a''>4-.) g''( fis'' |
   <b' e'' a''>4-.) g''( e'' |
