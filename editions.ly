@@ -196,6 +196,8 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod tweaks 132 0/4 music.Voice.A )
 
+\editionMod tweaks 150 1/4 music.Voice.A \shape #'((0 . 0) (0 . 0.4) (0 . 0.4) (0 . 0)) PhrasingSlur
+
 \editionMod dynamics 157 0/4 music.Dynamics \<
 
 \editionMod dynamics 160 0/4 music.Dynamics \!
@@ -206,10 +208,12 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 
 \editionMod dynamics 196 0/4 music.Dynamics \p
 
+\editionMod tweaks 198 1/4 music.Voice.A \shape #'((0 . 0) (0 . 0.4) (0 . 0.4) (0 . 0)) PhrasingSlur
+
 \editionMod dynamics 204 0/4 music.Dynamics \p
 \editionMod tweaks 204 1/4 music.Voice.A \shape #'((0 . -1) (0 . 0) (0 . 0) (0 . 0)) PhrasingSlur
 
-\editionMod tweaks 206 1/4 music.Voice.A \vshape #'((0 . 0) (0 . 0.2) (0 . 0.2) (0 . 0)) PhrasingSlur
+\editionMod tweaks 206 1/4 music.Voice.A \shape #'((0 . 0) (0 . 0.4) (0 . 0.4) (0 . 0)) PhrasingSlur
 
 \editionMod dynamics 206 1/4 music.Dynamics \<
 

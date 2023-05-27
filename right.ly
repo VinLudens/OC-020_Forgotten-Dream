@@ -192,7 +192,7 @@ right = {
   
   \time 7/4
   % \time 3/4
-  dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b'-1 } 
+  dis''4. dis''8 \tuplet 3/2 { dis''8 cis'' b'-\tweak Y-offset #2.35 -1 } 
   % \time 4/4
   <fis'-2 ais'-4>4 fis' <dis' gis'>\) \tuplet 3/2 { gis'8\( ais' b' } |
   % \time 3/4
