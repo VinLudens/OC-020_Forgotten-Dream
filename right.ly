@@ -99,7 +99,7 @@ right = {
       a'4-2 g'-1 fis'-2 |
       a'4-3 g'-2 e'-1\) |
 
-      b'2-1\(-"Slur pass over" d''4 |
+      b'2-1 d''4 |
       b'2 d''4 |
       \voiceOne fis''4-3 g''-4 fis'' |
       a''4 g''8-4 e''-2 fis'' g'' |
@@ -117,7 +117,7 @@ right = {
     }
   >> \oneVoice
 
-  <d'' g'' b''>2\)\( e''4 |
+  <d'' g'' b''>2\( e''4 |
   <c'' fis'' b''>2 fis''4 |
   <b' d'' a''>4\arpeggio g'' fis'' |
   <b' e'' a''>4\arpeggio g'' e''\) |
@@ -140,12 +140,12 @@ right = {
   d'4 b8 c' d' e' |
   d'4 b8 c' d' e' |
   d'2 b4 ~ |
-  4 b'4.\( b'8 |
+  4 b'4._\( b'8 |
   
   <d' g' b'>2 e'4-.\) |
   r4 <c' fis' b'>4.\( fis'8 |
   <b d' a'>4 g' fis' |
-  <b e' a'>4 \tuplet 3/2 { g'8-4 a'-5 g'-4 } e'4-2 |
+  <b e' a'>4 \tuplet 3/2 { g'8_4 a'_5 g'_4 } e'4_2 |
   
   d'4\) b8 c' d' e' |
   d'4 b8 c' d' e' |
