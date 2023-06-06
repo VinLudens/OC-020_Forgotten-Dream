@@ -165,6 +165,7 @@ mpcrescPoco = \tweak DynamicText.self-alignment-X #LEFT
 \editionMod dynamics 108 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 0)
 
 \editionMod dynamics 111 0/4 music.Dynamics \mp
+\editionMod tweaks 111 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.7
 
 \editionMod dynamics 114 0/8 music.Dynamics \cresc
 

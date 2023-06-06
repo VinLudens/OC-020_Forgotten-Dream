@@ -241,7 +241,7 @@ left = {
   \time 4/4
   a2 r |
   \time 7/4
-  \clef "bass" fis,8 cis fis a fis4
+  \clef "bass" fis,8 cis fis a fis cis
   b,8 dis fis b fis dis b,4 |
   \key g \major
   c8 e g e c4
@@ -333,7 +333,7 @@ left = {
   
   a,4 <e g>-. q-. |
   d4 <fis a>-. q-. |
-  g,4 <d fis>-. q-. |
+  g,4 <d fis>-\parenthesize -. q-\parenthesize -. |
   e,4 <b, d> q |
   
   a,4 <e g>-. q-. |
@@ -396,16 +396,16 @@ left = {
   
   a,4 <e g>-. q-. |
   d4 <fis a>-. q-. |
-  g,4 <d fis> q |
+  g,4 <d fis>-\parenthesize -. q-\parenthesize -. |
   e4 <b d'> q |
   
   \clef "treble" a4 <e' g'>-. q-. |
   d'4 <fis' a'>-. q-. |
   g4 <d' fis'>-. q-. |
-  e4 <b d'>-. q-. |
+  e4 <b d'> q |
   
-  a4 <e' g'>-. q-. |
-  d'4 <fis' a'>-. q-. |
+  a4 <e' g'> q |
+  d'4 <fis' a'> q |
   \clef "bass" g4-.\( d-. b,-. |
   <g,, g,>4-.\) r2 |
 
