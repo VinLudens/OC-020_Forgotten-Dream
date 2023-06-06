@@ -333,7 +333,7 @@ left = {
   
   a,4 <e g>-. q-. |
   d4 <fis a>-. q-. |
-  g,4 <d fis>-. q-. |
+  g,4 <d fis>-\parenthesize -. q-\parenthesize -. |
   e,4 <b, d> q |
   
   a,4 <e g>-. q-. |
@@ -396,7 +396,7 @@ left = {
   
   a,4 <e g>-. q-. |
   d4 <fis a>-. q-. |
-  g,4 <d fis> q |
+  g,4 <d fis>-\parenthesize -. q-\parenthesize -. |
   e4 <b d'> q |
   
   \clef "treble" a4 <e' g'>-. q-. |
