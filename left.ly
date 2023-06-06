@@ -402,10 +402,10 @@ left = {
   \clef "treble" a4 <e' g'>-. q-. |
   d'4 <fis' a'>-. q-. |
   g4 <d' fis'>-. q-. |
-  e4 <b d'>-. q-. |
+  e4 <b d'> q |
   
-  a4 <e' g'>-. q-. |
-  d'4 <fis' a'>-. q-. |
+  a4 <e' g'> q |
+  d'4 <fis' a'> q |
   \clef "bass" g4-.\( d-. b,-. |
   <g,, g,>4-.\) r2 |
 
