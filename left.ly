@@ -241,7 +241,7 @@ left = {
   \time 4/4
   a2 r |
   \time 7/4
-  \clef "bass" fis,8 cis fis a fis4
+  \clef "bass" fis,8 cis fis a fis cis
   b,8 dis fis b fis dis b,4 |
   \key g \major
   c8 e g e c4
